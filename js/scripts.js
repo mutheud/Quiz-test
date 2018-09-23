@@ -25,7 +25,7 @@ if (!isNaN(one)) {
     return result;
 }
 function total(answer) {
-    var endResult = "your score is&nbsp;" + answer;
+    var endResult = "Your score is&nbsp " + answer + "&nbsp out of 100&nbsp ;";
     document.getElementById("returnedResults").innerHTML = endResult;
 }
 function hideSection() {

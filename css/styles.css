@@ -36,12 +36,13 @@ button{
   padding-right:6px;
   padding-left:6px;
   font-weight: bolder;
+  list-style-type: none;
 }
 h1{
   text-align: center;
   font-weight: bolder;
   padding-top:25px;
-  color:aliceblue;
+  color:purple;
 }
 input[type='radio']:checked:after {
         /* width: 15px;
@@ -55,6 +56,7 @@ input[type='radio']:checked:after {
         background-color:purple;
         display: inline-block;
         visibility: visible;
+        font-weight: bolder;
        
 }
 h2{
