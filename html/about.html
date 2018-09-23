@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity=""></script>
+    <script src="../js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="blank">
+            <form id="quiz">
+                <div class="jumbotron">
+                <h1>Alumni Javascript test</h1>
+                </div>
+<div id="sectionOne" >
+<div class="question1">
+    <label for="1">
+        <h2>1</h2>
+    </label>
+    <label for="question1">
+        <h2>Where is the correct place to insert a JavaScript?
+        </h2>
+    </label>
+    <br>
+    <input type="radio" name="question1" value="0" class="one" id="question1">The body tag section
+    <br>
+    <input type="radio" name="question1" value="20" class="one" id="question1">Both the head tag section and the body
+    tag section are correct
+    <br>
+    <input type="radio" name="question1" value="0" class="one" id="question1">The head section
+</div>
+<div class="question2">
+    <label for="2">
+        <h2>2.</h2>
+    </label>
+    <label for="question2">
+        <br>
+        <br>
+        <h2>How can you add a comment in a JavaScript?</h2>
+    </label>
+    <br>
+    <input type="radio" name="question2" value="0" class="two" id="question2">'This is a comment
+    <br>
+    <input type="radio" name="question2" value="20" class="two" id="question2">//This is a comment
+    <br>
+    <input type="radio" name="question2" value="0" class="two" id="question2">!--This is a comment-->
+
+</div>
+<div class="question3">
+    <label for="3">
+        <h2>3.</h2>
+    </label>
+    <label for="question3">
+        <br>
+        <br>
+        <h2>How to write an IF statement in JavaScript?</h2>
+    </label>
+    <br>
+    <input type="radio" name="question3" value="0" class="three" id="question3">if i = 5 then
+    <br>
+    <input type="radio" name="question3" value="0" class="three" id="question3">if i = 5
+    <br>
+    <input type="radio" name="question3" value="20" class="three" id="question3">if (i == 5)
+
+</div>
+<br>
+<div class=next>
+    <button type="button" id="next" onclick="hideSection()">NEXT</button>
+</div>
+
+</div>
+</div>
+
+<div id="sectionTwo" style="display:none;">
+<div class="question4">
+    <label for="4">
+        <h2>4.</h2>
+    </label>
+    <label for="question4">
+        <br>
+        <br>
+        <h2>What is the correct syntax for referring to an external script called "xxx.js"?</h2>
+    </label>
+    <br>
+    <input type="radio" name="question4" value="0" class="four" id="question4"> script href="xxx.js" in a script tag
+
+    <br>
+    <input type="radio" name="question4" value="20" class="four" id="question4"> script src="xxx.js" in a script tag
+
+    <br>
+    <input type="radio" name="question4" value="0" class="four" id="question4"> script name="xxx.js" in a script tag
+</div>
+<div class="question5">
+    <label for="5">
+        <h2>5.</h2>
+    </label>
+    <label for="question5">
+        <br>
+        <br>
+        <h2>How do you write "Hello World" in an alert box?</h2>
+    </label>
+    <br>
+    <input type="radio" name="question5" value="0" class="five" id="question5"> alertBox("Hello World");
+
+    <br>
+    <input type="radio" name="question5" value="0" class="five" id="question5">msg("Hello World");
+
+    <br>
+    <input type="radio" name="question5" value="20" class="five" id="question5"> alert("Hello World");
+</div>
+<br>
+<div class="submit">
+    <button input type="submit" id="submit">submit</button>
+</div>
+<div class="result">
+    <label>
+        <br>
+        <br>
+        <h2 id="returnedResults"></h2>
+    </label>
+</div>
+</form>
+</div>
+</div>
+</body>
+
+</html>
