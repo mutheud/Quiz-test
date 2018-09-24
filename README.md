@@ -24,5 +24,8 @@ Diana Mutheu Mulyungi
 1. open terminal
 2. Git clone my url from my folder (quiz-test) that is in  my git-hub accont.That is git clone https://github.com/mutheud/quiz-test.git
 
- 
+### Live site
+ My content is live <a href=" https://mutheud.github.io/quiz-test/">here</a> 
 
+<!-- ### License
+#### The project is under <a href ="quiz-test/LICENSE.md">MIT</a> license -->
