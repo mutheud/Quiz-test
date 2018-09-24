@@ -10,7 +10,7 @@ Diana Mutheu Mulyungi
 
 >#### One should mark the answer which he/she thinks is correct so as to be awarded marks after his/her test completion.
 
->#### The examinee should should submit his/her work after completion and immediately after submitting , his/her results pop immediately below the submit button.
+>#### The examinee should submit his/her work after completion and immediately after submitting , his/her results pop immediately below the submit button.
 
 ### Technology Used
 * HTML
