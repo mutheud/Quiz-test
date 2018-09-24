@@ -1,3 +1,6 @@
+### Author
+Diana Mutheu Mulyungi
+
 ### Description
 #### This is an Examination paper that I have created  that is basically containing questions about Javascript. These questions are for alumnis of my high school targeted so as to note how well they understood Javascript programming languange.
 
@@ -19,4 +22,10 @@
 
 ### Accessing my work
 1. open terminal
-2. Git clone my url from my folder (quiz-test) that is in  my git-hub accont.
+2. Git clone my url from my folder (quiz-test) that is in  my git-hub accont.That is git clone https://github.com/mutheud/quiz-test.git
+
+### Live site
+ My content is live <a href="https://github.com/mutheud/quiz-test.git">here</a> 
+
+### License
+#### The project is under <a href ="quiz-test/LICENSE.md">MIT</a> license
